@@ -1,0 +1,58 @@
+body {
+  color: black;
+}
+
+.navbar {
+  padding: 1rem;
+  background-color: black;
+}
+
+.footer {
+  background-color: black;
+  padding: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: navy;
+  color: white;
+}
+/* This code always resulted in my image no longer being visible, and instead
+  it was filled with a tan colored block where the image should have been
+
+.hero-background-img {
+  position: relative;
+  background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5; /* Tone the image down further by giving it transparency
+}
+
+ */
+.jumbotron {
+  color: white;
+}
+.jumbotron h1 {
+  color: white;
+}
+.hero-background-img {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
