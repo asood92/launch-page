@@ -42,12 +42,10 @@ body {
 }
 
  */
-.jumbotron {
+.jumbotron *  {
   color: white;
 }
-.jumbotron h1 {
-  color: white;
-}
+
 .hero-background-img {
   background-image: url("background.jpg");
   background-repeat: no-repeat;
@@ -55,4 +53,8 @@ body {
   background-position: center;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+p.cta {
+  color: black;
 }
